@@ -7,15 +7,16 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title> Apple </title>
    <!-- <link rel="stylesheet" href="Style.css"> -->
-   <link rel="stylesheet" href="css/main.css">
+
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
 
-   <div class="container">
+   <div class="container" onscroll="scrollW">
 
       <header>
          <a href="#"> <img class="logo" src="Image/logo.png" alt="Apple Logo "></a>
@@ -28,8 +29,12 @@
             <li><a href="#">Contact</a></li>
          </ul>
 
+         <div class="icon">
+            <i class="fa-solid fa-lines-leaning" id="collspan"></i>
+         </div>
 
       </header>
+
 
       <div class="content">
 
@@ -41,13 +46,11 @@
             <a href="#">All Products</a>
          </div>
 
-         <div class="image">
+         <div class="Image">
             <img id="master" src="Image/0.png" alt="Iphone 13 pro max">
          </div>
 
       </div>
-
-
       <div class="icons">
          <img onclick="changePhone(this.src); changeColor(`#000`) " src="Image/0.png" alt="">
          <img onclick="changePhone(this.src); changeColor(`#247ec8`) " src="Image/1.png" alt="">
