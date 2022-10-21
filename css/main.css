@@ -218,15 +218,15 @@ position: absolute;
     width: 85px;
    }
    .content .text p{
-      font-size: 14px;
+      font-size: 1rem;
    }
    .content .text h2{
-      font-size: 17px;
+      font-size: 2rem;
    }
    .content .text a{
-      font-size: 10px;
+      font-size: .9rem;
       padding: 5px 6px;
-      width: 100px;
+   width: fit-content
       color: black;
    }
 
