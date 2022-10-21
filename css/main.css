@@ -154,6 +154,7 @@ position: absolute;
    width: 3rem;
    transition: .3s;
    cursor: pointer;
+       margin-bottom: 40px;
    padding: 0 10px;
 }
 
@@ -231,7 +232,7 @@ position: absolute;
 
    .icons img {
     width: 3rem;
-
+    margin-bottom: 90px;
     padding: 0;
   }
 }
