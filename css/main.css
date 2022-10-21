@@ -14,7 +14,7 @@
    background-color: black;
    min-height: 100vh;
    width: 100%;
-   padding: 5px 20px;
+   padding: 5px 20px 20px;
    color: white;
    overflow: hidden;
 }
@@ -227,7 +227,7 @@ header>a img {
 
    .icons img {
       width: 1.7rem;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding: 0;
   }
 }
