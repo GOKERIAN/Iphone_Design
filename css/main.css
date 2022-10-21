@@ -140,10 +140,14 @@ header>a img {
 
 
 .icons {
-   position: absolute;
-   bottom: 10px;
-   left: 50%;
-   transform: translateX(-50%);
+position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icons img {
@@ -226,9 +230,9 @@ header>a img {
 
 
    .icons img {
-      width: 1.7rem;
-  margin-bottom: 40px;
-  padding: 0;
+    width: 3rem;
+
+    padding: 0;
   }
 }
 
