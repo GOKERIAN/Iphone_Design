@@ -96,6 +96,7 @@ header>a img {
    display: flex;
    justify-content: center;
    align-items: center;
+       color: black;
    background-color: white;
    border-radius: 9999px;
    padding: 10px;
