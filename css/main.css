@@ -112,6 +112,7 @@ header>a img {
    max-width: 40%;
    text-align: center;
    position: relative;
+   
 
 }
 
@@ -213,8 +214,8 @@ position: absolute;
       background-color: #0b0a0a;
    }
    .content .image img{
-      height: 120px;
-      width: 70px;
+    height: 150px;
+    width: 85px;
    }
    .content .text p{
       font-size: 13px;
@@ -232,7 +233,7 @@ position: absolute;
 
    .icons img {
     width: 3rem;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
     padding: 0;
   }
 }
