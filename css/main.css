@@ -88,8 +88,8 @@ header>a img {
 }
 
 .content .text p {
-   max-width: 400px;
-   margin: 10px 0;
+    max-width: 400px;
+    margin: 40px 0;
 }
 
 .content .text a {
@@ -141,8 +141,8 @@ header>a img {
 
 
 .icons {
-position: absolute;
-    bottom: 30px;
+position: relative;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -218,14 +218,15 @@ position: absolute;
     width: 85px;
    }
    .content .text p{
-      font-size: 1rem;
+      font-size: .9rem;
    }
    .content .text h2{
-      font-size: 2rem;
+      font-size: 1.2rem;
    }
    .content .text a{
-      font-size: .9rem;
+      font-size: 1rem;
       padding: 5px 6px;
+      font-weight:bold;
    width: fit-content
       color: black;
    }
