@@ -39,17 +39,21 @@ header ul {
    flex-basis: 60%;
 }
 
-
+header ul li{
+   display: inline-block;
+}
 header ul li a {
    color: white;
    text-decoration: none;
    display: block;
    padding: 5px 10px;
-transition: .3s;
+   transition: .3s;
 }
-header ul li a:hover{
+
+header ul li a:hover {
    color: #ddd
 }
+
 header>a {
    display: block;
    flex-basis: 30%;
@@ -89,15 +93,14 @@ header>a img {
 }
 
 .content .text a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  border-radius: 9999px;
-  padding: 10px;
-  width: 150px;
-   color: black;
- 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   border-radius: 9999px;
+   padding: 10px;
+   width: 150px;
+
 
 
 
@@ -117,36 +120,117 @@ header>a img {
    position: absolute;
    left: 50%;
    top: 50%;
-   transform: translate(-50% , -40%);
+   transform: translate(-50%, -40%);
    max-width: 100%;
    animation: MoveUpDown 2s alternate infinite;
-   
+
 }
+
 @keyframes MoveUpDown {
    0% {
-       top: 0;
+      top: 0;
    }
-   100% { 
-      top:20px
+
+   100% {
+      top: 20px
    }
 }
 
 
 
 
-.icons{
+.icons {
    position: absolute;
    bottom: 10px;
    left: 50%;
    transform: translateX(-50%);
 }
-.icons img{
+
+.icons img {
    width: 3rem;
    transition: .3s;
    cursor: pointer;
    padding: 0 10px;
 }
-.icons img:hover{
-transform: scale(1.2) rotate(5deg);
+
+.icons img:hover {
+   transform: scale(1.2) rotate(5deg);
 
 }
+
+#collspan {
+   font-size: 30px;
+   display: none;
+}
+
+@media(max-width:767px) {
+
+   .icon {
+      flex-basis: 30%;
+      display: flex;
+      justify-content: flex-end;
+   }
+
+   #collspan {
+      display: block;
+      cursor: pointer;
+      transition: .3s;
+
+   }
+
+
+   header {
+      align-items: flex-start;
+      justify-content: space-between;
+   }
+
+   header ul {
+      flex-direction: column;
+      margin: 50px auto;
+      gap: 0px;
+      display: none;
+   }
+
+   header ul li {
+      position: relative;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      padding: 10px;
+      transition: .3s;
+      border-bottom: 1px solid white;
+
+   }
+
+   header ul li:hover {
+      background-color: #0b0a0a;
+   }
+   .content .image img{
+      height: 120px;
+      width: 70px;
+   }
+   .content .text p{
+      font-size: 13px;
+   }
+   .content .text h2{
+      font-size: 12px;
+   }
+   .content .text a{
+      font-size: 10px;
+      padding: 5px 6px;
+      width: 100px;
+      color: black;
+   }
+
+
+   .icons img {
+      width: 1.7rem;
+  margin-bottom: 20px;
+  padding: 0;
+  }
+}
+
+
+
